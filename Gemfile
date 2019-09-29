@@ -17,8 +17,8 @@ group :development do
   gem 'berkshelf', '~> 3.0'
 
   # Use Test Kitchen with Vagrant for converging the build environment
-  gem 'test-kitchen'
-  gem 'kitchen-vagrant'
+  gem 'test-kitchen', '>= 1.20.0'
+  gem 'kitchen-vagrant', '>= 1.3.0'
   gem 'vagrant-wrapper'
 
   gem 'nio4r', '~> 1.2.1'
